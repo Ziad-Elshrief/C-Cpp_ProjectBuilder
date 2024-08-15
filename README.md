@@ -36,8 +36,10 @@ $~~~~~~~$    └── header2.h \
 └── source2.c
 
 ## How to use
-You can either run the `Gui.py` file using any python interpreter if you have PyQt5 library installed 
-or you can use the `C_Cpp Builder.exe` which is created using PyInstaller
+You can either: 
+1. Run the `Gui.py` file using any python interpreter
+  >Make sure you download `logo.png` in the same directory and that you have PyQt5 library installed
+2. Use the `C_Cpp Builder.exe` which is created using PyInstaller
 
 ## Building a project
 A guide to how to build a project using C/C++ Project Builder
@@ -57,7 +59,7 @@ This Project consists mainly of 3 files:
    ```
    pyuic5 -x file.ui -o file.py
    ```
-  which the `Gui.py`  file inherts from the class inside `Ui_Py.py`.
+  > which the `Gui.py`  file inherts from the class inside `Ui_Py.py`.
 
 2. `Builder.py`: is considered the backend of the program which uses OS and subprocess modules to use command prompt to achieve the program purpose.
 3. `Gui.py`: which is considered the main file that shows the application and interacts with the user. \
