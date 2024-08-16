@@ -41,6 +41,8 @@ You can either:
   >Make sure you download `logo.png` in the same directory and that you have PyQt5 library installed
 2. Use the `C_Cpp Builder.exe` which is created using PyInstaller
 
+You can watch the YouTube demo from the following [link](https://youtu.be/7ImD7PZ3JBs)
+
 ## Building a project
 A guide to how to build a project using C/C++ Project Builder
 1. You choose the folder containg the project you want to build by clicking **Choose Directory** 
